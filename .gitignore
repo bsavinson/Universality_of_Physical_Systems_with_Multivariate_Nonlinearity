@@ -1,0 +1,17 @@
+# Ignore everything by default.
+*
+
+# Public release files.
+!.gitignore
+!README.md
+!free_space.py
+!train.py
+!plot_paper_twinplots.py
+
+# Public release data and outputs.
+!data/
+!data/**
+!figs/
+!figs/**
+!runs/
+!runs/**
